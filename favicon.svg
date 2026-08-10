@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <!-- 圆角方形背景 -->
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <!-- 打开的书本 -->
+  <g fill="none" stroke="#fff" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M256 185 L118 208 L118 370 L256 347" opacity="0.9"/>
+    <path d="M256 185 L394 208 L394 370 L256 347" opacity="0.8"/>
+    <line x1="256" y1="185" x2="256" y2="347" opacity="0.4"/>
+  </g>
+  <!-- 罗盘指针 - 上半 (亮) -->
+  <polygon points="256,98 300,168 212,168" fill="#fff" opacity="0.95"/>
+  <!-- 罗盘指针 - 下半 (暗) -->
+  <polygon points="256,195 300,168 212,168" fill="#fff" opacity="0.3"/>
+  <!-- 罗盘中心 -->
+  <circle cx="256" cy="168" r="14" fill="#fff"/>
+  <circle cx="256" cy="168" r="7" fill="url(#bg)"/>
+</svg>
